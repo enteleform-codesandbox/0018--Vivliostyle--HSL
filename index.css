@@ -1,0 +1,17 @@
+
+:root{
+	--Color: black;
+	--Red:   hsl(0,   65%, 65%);
+	--Green: hsl(144, 50%, 55%);
+	--Blue:  hsl(230, 80%, 75%);
+}
+
+.Text{
+	color:         var(--Color);
+	border-bottom: 4px solid var(--Color);
+	font-size:     3rem;
+}
+
+.Text.Red  {--Color: var(--Red  );}
+.Text.Green{--Color: var(--Green);}
+.Text.Blue {--Color: var(--Blue );}
